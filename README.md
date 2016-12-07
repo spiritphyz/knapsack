@@ -43,6 +43,7 @@ Find the optimal fit for items in a knapsack.
 
 - rank each item by size, ascending
   - set smallestSize scaled to be 100
+  - larger items have a negative score, scaled away from maxSpaceLimit
 
 - score each item by highest value + lowest weight + smallest size
   - desired items have scores closer to 300
