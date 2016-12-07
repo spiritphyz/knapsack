@@ -52,7 +52,7 @@ Find the optimal fit for items in a knapsack.
   - make a decision tree with these branches that represent all permutations:
     - arrange & rotate item to maximize remaining space in knapsack
       - use a grid that has a pinning position for placement of each item
-        - pinning position is the top-left edge of item
+        - pinning position is the top-left point of item
         - pinning position has to be inside the knapsack area
-      - helper function to check all sides that they don't exceed nearby "walls" of objects/knapsack edges
+      - helper function to check all sides that they don't exceed nearby "walls" of items / knapsack edges
     - compare combinations to see which partner items have higher value but still under maxWeightLimit
